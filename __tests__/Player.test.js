@@ -87,4 +87,4 @@ test("subtracts from player's health", () => {
   player.reduceHealth(99999);
 
   expect(player.health).toBe(0);
-});     
+});
